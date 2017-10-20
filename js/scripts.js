@@ -10,10 +10,14 @@ $(document).ready(function() {
     $(".name").text(name);
 
     if (name === "" || aesthetics === "" || syntax === "" || stability === "") {
-      alert("PLEASE ANSWER ALL QUESTIONS BEFORE SUBMITTING")
-      $(".results").hide();
+      $("#c-sharp").hide();
+      $("#css").hide();
+      $("#php").hide();
+      $("#ruby").hide();
+      $("#java").hide();
+      alert("HELP ME TO HELP YOU, MEAT - ANSWER ALL THE QUESTIONS PROPERLY")
     }
-    if (tolerance === "high" || stability === "mid" && popularity === "high") {
+    if (tolerance === "high" || stability === "mid" && popularity === "high" || syntax === "no" && popularity === "low") {
       $("#java").show();
       $("#c-sharp").hide();
       $("#css").hide();
@@ -41,14 +45,14 @@ $(document).ready(function() {
       $("#css").hide();
       $("#php").hide();
     }
-    else {
+    if (aesthetics === "yes") {
       $("#css").show();
       $("#c-sharp").hide();
       $("#java").hide();
       $("#php").hide();
       $("#ruby").hide();
     }
-    
+
     event.preventDefault();
   });
 });
