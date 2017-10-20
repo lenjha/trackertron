@@ -1,3 +1,7 @@
+#c-sharp, #java, #php, #ruby {
+  display: none;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }

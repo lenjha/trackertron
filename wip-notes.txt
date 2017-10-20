@@ -1,16 +1,21 @@
-C#
+C#/.NET
     Popular, large backing (Microsoft)
     In-demand language
     Rebirth lately to make it more available and incorporate other languages
     Good choice for those working for larger company on business software
 
-JAVA
+CSS/Design
+    Front-end work
+    Make it look nice!
+    DESIGN!
+
+JAVA/Android
     Used in everything
     Also high-demand
     Enterprise-level company, Android dev, and/or high-performance
     Dynamic web apps
 
-PHP
+PHP/Drupal
     Most popular backend language
     Known for its use in content management, but it is versatile
     Diverse options - dynamic
@@ -18,7 +23,7 @@ PHP
     Maintain security/stability of complex sites
     Building sites for smaller companies
 
-RUBY
+Ruby/Rails
     Interactive web applications
     Account creation, entering info, interacting with dynamic content
     Rails framework written with Ruby

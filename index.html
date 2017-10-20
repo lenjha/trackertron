@@ -24,42 +24,92 @@
       </div> <!--row div-->
 
       <form id="survey-questions">
+
         <div class="form-group">
-          <label for="popularity">How are you with popularity?</label>
-          <select class="form-control" id="popularity">
-            <option>I distaste it.</option>
+          <label for="name">Your name:</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="aesthetics">Do you care for aesthetics or themes?</label>
+          <select class="form-control" id="aesthetics">
+            <option>Yes.</option>
             <option>It's overrated.</option>
-            <option>It's okay.</option>
-            <option>I crave it.</option>
           </select>
         </div>
+
         <div class="form-group">
-          <label for="syntax">Do you prefer a natural syntax?</label>
+          <label for="syntax">Do you prefer a natural, graceful syntax?</label>
           <select class="form-control" id="syntax">
-            <option>I distaste it.</option>
+            <option>Yes.</option>
             <option>It's overrated.</option>
-            <option>It's okay.</option>
-            <option>I crave it.</option>
           </select>
         </div>
-        <div class="form-group">
-          <label for="tolerance">How is your pain tolerance?</label>
-          <select class="form-control" id="tolerance">
-            <option>I abhor suffering.</option>
-            <option>It's overrated.</option>
-            <option>It's okay.</option>
-            <option>I am a masochist.</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="importance">Do you want to feel important?</label>
-          <select class="form-control" id="importance">
-            <option>I distaste it.</option>
-            <option>It's overrated.</option>
-            <option>It's okay.</option>
-            <option>I crave it.</option>
-          </select>
-        </div>
+
+        <div class="popularity-radio">
+          <label for="popularity">How do you rank popularity?</label>
+            <div class="radio">
+              <input type="radio" name="popularity" value="pop-low">
+              Low
+            </div>
+          </label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="popularity" value="pop-mid">
+              Mid
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="popularity" value="pop-high">
+              High
+            </label>
+          </div>
+        </div> <!--POPULARITY div closing tag-->
+
+        <div class="tolerance-radio">
+          <label for="tolerance">How is your mental anguish tolerance?</label>
+            <div class="radio">
+              <input type="radio" name="tolerance" value="tolerance-low">
+              My diet exclusively consists of a bland protein paste due to the stress decision-making unleashes upon me.
+            </div>
+          </label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="tolerance" value="tolerance-mid">
+              Pain is overrated.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="tolerance" value="tolerance-high">
+              High
+            </label>
+          </div>
+        </div> <!--tolerance div closing tag-->
+
+        <div class=importance-radio">
+          <label for=importance">Do you want to feel important?</label>
+            <div class="radio">
+              <input type="radio" name="importance value=importance-low">
+              I don't care about feeling important.
+            </div>
+          </label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="importance" value="importance-mid">
+              A little, yes.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="importance" value="importance-high">
+              High
+            </label>
+          </div>
+        </div> <!--importance div closing tag-->
+
+        
         <div class="form-group">
           <label for="stability">What are your thoughts on stability?</label>
           <select class="form-control" id="stability">
@@ -69,10 +119,29 @@
             <option>I crave it.</option>
           </select>
         </div>
-        
+
           <button type="submit" class="btn" id="submit-button">
             JUDGE ME.
           </button>
+
+      <div class="results">
+        <div id="c-sharp">
+          <h2><span class="name"></span>, you should try the C#/.NET track!</h2>
+        </div>
+        <div id="java">
+        <div id="css">
+          <h2><span class="name"></span>, you should try the CSS/Design track!</h2>
+        </div>
+        <div id="java">
+          <h2><span class="name"></span>, you should try the JAVA/Android track!</h2>
+        </div>
+        <div id="php">
+          <h2><span class="name"></span>, you should try the PHP/Drupal track!</h2>
+        </div>
+        <div id="ruby">
+          <h2><span class="name"></span>, you should try the Ruby/Rails track!</h2>
+        </div>
+      </div> <!--results div closing tag-->
 
       </form>
     </div> <!--CONTAINER DIV DO NOT REMOVE-->
