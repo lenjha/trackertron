@@ -17,3 +17,8 @@ h1 {
 .results {
   color: red;
 }
+
+button {
+  background-color: #77e3e5;
+  margin-top: 20px;
+}
