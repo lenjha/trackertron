@@ -9,10 +9,10 @@ $(document).ready(function() {
 
     $(".name").text(name);
 
-    // if (name === "" || aesthetics === "" || syntax === "") {
-    //   alert("PLEASE ANSWER ALL QUESTIONS BEFORE SUBMITTING")
-    //   $(".results").hide();
-    // }
+    if (name === "" || aesthetics === "" || syntax === "" || stability === "") {
+      alert("PLEASE ANSWER ALL QUESTIONS BEFORE SUBMITTING")
+      $(".results").hide();
+    }
     if (tolerance === "high" || stability === "mid" && popularity === "high") {
       $("#java").show();
       $("#c-sharp").hide();
@@ -48,7 +48,7 @@ $(document).ready(function() {
       $("#php").hide();
       $("#ruby").hide();
     }
-    debugger;
+    
     event.preventDefault();
   });
 });
