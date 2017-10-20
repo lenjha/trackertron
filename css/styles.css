@@ -1,4 +1,4 @@
-#c-sharp, #java, #php, #ruby {
+#c-sharp, #css, #java, #php, #ruby {
   display: none;
 }
 
@@ -8,4 +8,12 @@ body {
 
 h1 {
   text-align: center;
+}
+
+.question {
+  margin-top: 50px;
+}
+
+.results {
+  color: red;
 }
