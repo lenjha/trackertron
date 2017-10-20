@@ -1,0 +1,32 @@
+HARD REQUIREMENTS
+  1) Minimum 5 survey questions
+  2) Minimum 3 different track suggestions
+  3) Detailed readme file - professional and on-topic
+
+branching to return the result
+all of last week's objectives are met
+jquery is used to show/hide result after questions are answered/submitted
+  (test app several times with different answers)
+form gathers input from the user
+
+
+
+WITH SPARE TIME...
+  (check for markdown tutorial)
+  ask user for name and address them directly
+  multiple choice questions determine tracks via letter most frequently selected
+  use fade-in/out or slide-in/out throughout project
+  enhancements like custom css, animation, or modals
+
+
+(last week's standards!
+  coding indentation, readme includes author name, program name, detailed setup instructions, description, and copyright/license information)
+
+
+
+
+  variable names are descriptive of what they represent
+  webpage is styled with bootstrap/custom css
+  project is presentable/portfolio-quality
+  functionality required
+  demonstrates understanding of concepts covered this week
