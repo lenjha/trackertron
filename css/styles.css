@@ -5,6 +5,8 @@
 body {
   font-family: 'VT323', monospace;
   font-size: 20px;
+  background-color: black;
+  color: #42bf48;
 }
 
 h1 {
@@ -16,14 +18,9 @@ h1 {
   text-align: center;
 }
 
-.jumbotron {
-  background-color: #grey;
-}
-
 .dialogue {
   margin-top: 10px;
   text-align: justify;
-  background-color: #cccccc;
   padding: 1%;
 }
 
@@ -32,18 +29,21 @@ h1 {
 }
 
 .results {
-  color: red;
   margin-top: 20px;
   padding: 5%;
+  text-align: justify;
 }
 
 .results-card {
   margin-top: 50px;
   margin-bottom: 100px;
+  background-color: black;
+  border-color: #42bf48;
 }
 
 .btn {
-  background-color: red;
+  background-color: #0000ff;
   margin-top: 20px;
   font-size: 50px;
+  color: #42bf48;
 }
