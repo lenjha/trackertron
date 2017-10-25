@@ -18,6 +18,7 @@ _This is a webpage housing a quiz to see what programming language the potential
 * _Clone the repository from https://github.com/lenjha/trackertron_
 * _Navigate to the folder_
 * _Open index.html_
+* _Or, go to https://lenjha.github.io/trackertron/_
 
 ## Known Bugs
 
