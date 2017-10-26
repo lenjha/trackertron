@@ -10,47 +10,28 @@ $(document).ready(function() {
 
     $(".name").text(name);
 
+    $("#java").hide();
+    $("#c-sharp").hide();
+    $("#css").hide();
+    $("#php").hide();
+    $("#ruby").hide();
+
     if (tolerance === "high" || stability === "mid" && importance === "high" || syntax === "no") {
       $("#java").fadeIn();
-      $("#c-sharp").hide();
-      $("#css").hide();
-      $("#php").hide();
-      $("#ruby").hide();
     }
     if (tolerance === "mid" || popularity === "high" && importance === "high") {
       $("#c-sharp").fadeIn();
-      $("#java").hide();
-      $("#css").hide();
-      $("#php").hide();
-      $("#ruby").hide();
     }
     if (stability === "high" || popularity === "mid") {
       $("#php").fadeIn();
-      $("#c-sharp").hide();
-      $("#java").hide();
-      $("#css").hide();
-      $("#ruby").hide();
     }
     if (popularity === "low" || tolerance === "low" || syntax === "yes" || stability === "low") {
       $("#ruby").fadeIn();
-      $("#c-sharp").hide();
-      $("#java").hide();
-      $("#css").hide();
-      $("#php").hide();
     }
     if (aesthetics === "yes") {
       $("#css").fadeIn();
-      $("#c-sharp").hide();
-      $("#java").hide();
-      $("#php").hide();
-      $("#ruby").hide();
     }
     if (name === "" || aesthetics === "" || syntax === "" || popularity === "" || tolerance === "" || importance === "" || stability === "") {
-      $("#c-sharp").hide();
-      $("#css").hide();
-      $("#php").hide();
-      $("#ruby").hide();
-      $("#java").hide();
       alert("HELP ME TO HELP YOU, MEAT - ANSWER ALL THE QUESTIONS PROPERLY")
     }
 
